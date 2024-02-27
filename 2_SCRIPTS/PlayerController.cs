@@ -51,7 +51,6 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacles"))
         {
             dead = true;
-            manager.LoseGame();
         }
     }
 }
